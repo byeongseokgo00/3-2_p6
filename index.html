@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>One call away</title>
+<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
+
+	<style>
+
+		body{margin:0; background-image: url('cp.jpg'); background-size: cover; height: auto;}
+
+
+		.btn {height: 45px; position: absolute; margin-top:390px; margin-left:1140px;}
+
+		@keyframes rr{
+			from{ top: 0px; opacity: 0}
+			to{ top: 1000px; opacity: 1}
+		}
+
+		p {margin:0; padding: 0; background-color: #00c900; text-align: center; color: white; position: relative; font-family: 'Frank Ruhl Libre', serif;}
+
+		#p1 {position: absolute; left:50px; top:25px; animation: mmove 3s; color:white;}
+		#p2 {position: absolute; left:75px; top:50px; animation: mmove 6s; color:white;}
+		#p3 {position: absolute; left:100px; top:75px; animation: mmove 12s; color:white;}
+		#p4 {position: absolute; left:125px; top:100px; animation: mmove 18s; color:white;}
+		#p5 {position: absolute; left:150px; top:125px; animation: mmove 19s; color:white;}
+		#p6 {position: absolute; left:1050px; top:50px; animation: mmove 26s; color:white;}
+		#p7 {position: absolute; left:1075px; top:75px; animation: mmove 29s; color:white;}
+		#p8 {position: absolute; left:1100px; top:100px; animation: mmove 33s; color:white;}
+		#p9 {position: absolute; left:1125px; top:125px; animation: mmove 35s; color:white;}
+		#p10 {position: absolute; left:175px; top:250px; animation: mmove 38s; color:white;}
+		#p11 {position: absolute; left:75px; top:275px; animation: mmove 42s; color:white;}
+		#p12 {position: absolute; left:100px; top:300px; animation: mmove 43s; color:white;}
+		#p13 {position: absolute; left:125px; top:325px; animation: mmove 49s; color:white;}
+		#p14 {position: absolute; left:150px; top:350px; animation: mmove 54s; color:white;}
+		#p15 {position: absolute; left:200px; top:375px; animation: mmove 56s; color:white;}
+		#p16 {position: absolute; left:225px; top:400px; animation: mmove 67s; color:white;}
+		#p17 {position: absolute; left:250px; top:425px; animation: mmove 71s; color:white;}
+		#p18 {position: absolute; left:250px; top:450px; animation: mmove 74s; color:white;}
+		#p19 {position: absolute; left:275px; top:475px; animation: mmove 76s; color:white;}
+		#p20 {position: absolute; left:300px; top:500px; animation: mmove 82s; color:white;}
+		#p21 {position: absolute; left:325px; top:525px; animation: mmove 85s; color:white;}
+		#p22 {position: absolute; left:350px; top:550px; animation: mmove 90s; color:white;}
+		#p23 {position: absolute; left:375px; top:575px; animation: mmove 96s; color:white;}
+		#p24 {position: absolute; left:400px; top:600px; animation: mmove 98s; color:white;}
+		#p25 {position: absolute; left:425px; top:625px; animation: mmove 99s; color:white;}
+		#p26 {position: absolute; left:450px; top:650px; animation: mmove 104s; color:white;}
+		#p27 {position: absolute; left:50px; top:675px; animation: mmove 111s; color:white;}
+		#p28 {position: absolute; left:75px; top:700px; animation: mmove 116s; color:white;}
+		#p29 {position: absolute; left:100px; top:725px; animation: mmove 121s; color:white;}
+		#p30 {position: absolute; left:125px; top:750px; animation: mmove 128s; color:white;}
+		#p31 {position: absolute; left:150px; top:775px; animation: mmove 133s; color:white;}
+		#p32 {position: absolute; left:175px; top:800px; animation: mmove 137s; color:white;}
+		#p33 {position: absolute; left:200px; top:825px; animation: mmove 140s; color:white;}
+		#p34 {position: absolute; left:225px; top:850px; animation: mmove 144s; color:white;}
+		#p35 {position: absolute; left:250px; top:875px; animation: mmove 148s; color:white;}
+		#p36 {position: absolute; left:50px; top:900px; animation: mmove 152s; color:white;}
+		#p37 {position: absolute; left:75px; top:925px; animation: mmove 160s; color:white;}
+		#p38 {position: absolute; left:100px; top:950px; animation: mmove 166s; color:white;}
+		#p39 {position: absolute; left:125px; top:975px; animation: mmove 172s; color:white;}
+
+		@keyframes mmove{
+			from{margin-top: 200px; opacity: 0;}
+			to{margin-left: 300px; opacity: 1;}
+		}		
+
+		.plbtn {position: absolute; color: white; margin-left: 1060px; margin-top: 350px;}
+
+		.circle{
+				width: 3px; height: 5px; border-radius: 50%; background: #c2ff66; position: absolute; animation: rrr 1s infinite ease-in-out; left: 500px;}
+		@keyframes rrr{
+			from{ bottom: 800px; }
+			to{ bottom: 0px; opacity: 1;}
+		}
+
+		.footer{
+			position: relative;
+		    left: 0;
+		    top: 1000px;
+		    width: 100%;
+		    padding: 50px 0;
+		    text-align: center;
+		    color: white;
+		    background: #00c900;}
+	</style>
+
+</head>
+
+<body>
+		<img src="pbtn.png" class="btn" id="pb">
+		<audio src="ocw.mp3" loop id="pm"></audio>
+
+		<h4 class="plbtn">재생버튼을 누르면 음악이 나옵니다!</h4>
+
+		<p id="p1">I'm only one call away</p>
+		<p id="p2">I'll be there to save the day</p>
+		<p id="p3">Superman got no thing on me</p>
+		<p id="p4">I'm only one call away</p>
+		<p id="p6">Call me baby If you need a friend</p>
+		<p id="p7">I just wanna give you a love</p>
+		<p id="p8">C'mon, C'mon, C'mon</p>
+		<p id="p9">Reaching out to you, so take a chance</p>
+		<p id="p10">No matter where you go</p>
+		<p id="p11">You know you're not alone</p>
+		<p id="p12">I'm only one call away</p>
+		<p id="p13">I'll be there to save the day</p>
+		<p id="p14">Superman got no thing on me</p>
+		<p id="p15">I'm only one call away</p>
+		<p id="p16">Come along with me and dont be sacred</p>
+		<p id="p17">I just wanna set you free</p>
+		<p id="p18">C'mon, C'mon, C'mon</p>
+		<p id="p19">You and me can make it anywhere</p>
+		<p id="p20">For now, We can stay here for a while</p>
+		<p id="p21">Cause you know, I just wanna see you smile</p>
+		<p id="p22">No matter where you go</p>
+		<p id="p23">You know you're not alone</p>
+		<p id="p24">I'm only one call away</p>
+		<p id="p25">I'll be there to save the day</p>
+		<p id="p26">Superman got no thing on me</p>
+		<p id="p27">I'm only one call away</p>
+		<p id="p28">And when you're week, I'll be strong</p>	
+		<p id="p29">I'm gonna keep holding on</p>
+		<p id="p30">Now don't worry, It won't be long</p>
+		<p id="p31">Darling, and when you feel like hope is gone</p>
+		<p id="p32">Just run into my arms</p>
+		<p id="p33">I'm only one call away</p>
+		<p id="p34">I'll be there to save the day</p>
+		<p id="p35">Superman got no thing on me</p>
+		<p id="p35">I'm only one, I'm only one call away</p>
+		<p id="p36">I'll be there to save the day</p>
+		<p id="p37">Superman got no thing on me</p>
+		<p id="p38">I'm only one call away</p>
+		<p id="p39">I'm only one call away</p>
+
+		<div class="circle" id="rrr"></div>
+
+	<script type="text/javascript">
+
+		var bb = "off"
+		pb.onclick = function(){
+			if(bb == "off"){
+				pb.style.opacity = "1";
+				pm.play();
+				pb = "on";
+			}else{
+				pb.style.opacity = "0.3";
+				pm.pause();
+				pb = "off";
+			}
+		}
+
+		for(var i=0; i<100; i++){
+			var b = rrr.cloneNode(true);
+			b.id = i;
+			b.style.left = Math.random()*1600+"px";
+			 // b.style.height = Math.random()*30+"px";
+			b.style.animationDuration = Math.random()*50 +"s";
+			// b.style.animationDelay =+"s";
+			// b.style.background = randomColor();
+			document.body.appendChild(b);
+		}
+
+	function randomBH(min, max) {
+	  min = Math.ceil(min);
+	  max = Math.floor(max);
+	  return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+	</script>
+
+	<div class="footer"><p id="fp">2019&copy; HKNU Design 고병석. all rights reserved.</p></div>
+</body>
+
+</html>
